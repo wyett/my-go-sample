@@ -1,4 +1,4 @@
-package main
+package basic
 
 import (
 	"fmt"
@@ -32,7 +32,7 @@ var (
 	ee *int
 )
 
-func main() {
+func VariableMain() {
 	fmt.Print(aa, bb, cc, dd, ee)
 	var goos string = runtime.GOOS
 	fmt.Printf("OS is: %s\n", goos)
@@ -42,22 +42,23 @@ func main() {
 	// 打印
 	printTest()
 
-}
+	// 赋值
+	assignment()
 
+}
 
 func printTest() {
 	// fmt.Sprintf与Printf, 不过前者将格式化后的字符串以返回值的形式返回给调用者
-	var1 := fmt.Sprintf("%s:%s", "100","年")
+	var1 := fmt.Sprintf("%s:%s", "100", "年")
 	fmt.Println("==========================")
-	fmt.Printf("%s:%s", "100","年")
+	fmt.Printf("%s:%s", "100", "年")
 	fmt.Println("==========================")
 
 	// fmt.Print与fmt.Println, 会自动使用格式化标识符 %v 对字符串进行格式化，两者都会在每个参数之间自动增加空格，而后者还会在字
-	fmt.Print(var1,var1)
+	fmt.Print(var1, var1)
 	fmt.Println("==========================")
-	fmt.Println(var1,var1)
+	fmt.Println(var1, var1)
 	fmt.Println("==========================")
-
 
 	// assignment
 }
@@ -79,7 +80,6 @@ func assignment() {
 	//aa, bb, cc = 1, 1.1, "abc"
 	fmt.Println(a, b, c)
 
-
 	// 局部变量多变量赋值，不需要被声明
 	aaaa, bbbb, cccc := 1, 1.1, "abc"
 
@@ -91,5 +91,3 @@ func assignment() {
 	_, h1 = 5, 7
 
 }
-
-

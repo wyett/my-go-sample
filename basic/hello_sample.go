@@ -1,4 +1,4 @@
-package main
+package basic
 
 import "fmt"
 
@@ -8,7 +8,7 @@ import "fmt"
  * @description: TODO
  */
 
-func main()  {
-	fmt.Print("hello, world");
+func HelloMain() {
+	fmt.Print("hello, world")
 
 }

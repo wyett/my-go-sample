@@ -1,4 +1,4 @@
-package main
+package basic
 
 import "fmt"
 
@@ -23,7 +23,7 @@ const (
 	e
 )
 
-func main()  {
+func ConstMain() {
 	fmt.Print(a, b, c, d, e)
 
 }
