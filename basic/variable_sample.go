@@ -71,17 +71,17 @@ func assignment() {
 	a = 1
 
 	// 并行赋值，被用在返回多个值, 多变量必须被提前声明
-	var (
-		aaa int
-		bbb float64
-		ccc string
-	)
-	aaa, bbb, ccc = 1, 1.1, "abc"
+	//var (
+	//	aaa int
+	//	bbb float64
+	//	ccc string
+	//)
+	//aaa, bbb, ccc = 1, 1.1, "abc"
 	//aa, bb, cc = 1, 1.1, "abc"
 	fmt.Println(a, b, c)
 
 	// 局部变量多变量赋值，不需要被声明
-	aaaa, bbbb, cccc := 1, 1.1, "abc"
+	//aaaa, bbbb, cccc := 1, 1.1, "abc"
 
 	// 交换值
 	var h1, h2 int
@@ -89,5 +89,14 @@ func assignment() {
 
 	// 只写变量_来丢弃值
 	_, h1 = 5, 7
+
+}
+
+// 每个go文件中只能有一个
+// init优先于main被执行
+// 不能够被人为调用，而是在每个包完成初始化后自动执行
+// 用途：1.声明变量
+// 2.调用后台执行的 goroutine
+func init() {
 
 }

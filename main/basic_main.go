@@ -20,4 +20,8 @@ func main() {
 	// 3.variable
 	basic.VariableMain()
 
+	// 4.execute_order
+	basic.ExecuteOrderMain()
+	basic.ExecuteOrderMain2()
+
 }
