@@ -7,7 +7,7 @@ package main
  */
 
 import (
-	"my-go-sample/basic"
+	"basic_sample/basic"
 )
 
 func main() {
@@ -23,5 +23,8 @@ func main() {
 	// 4.execute_order
 	basic.ExecuteOrderMain()
 	basic.ExecuteOrderMain2()
+
+	// 5.main package func
+	printMain()
 
 }
