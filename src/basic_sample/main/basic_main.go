@@ -7,24 +7,39 @@ package main
  */
 
 import (
-	"basic_sample/basic"
+	"basic_sample/mytime"
+	"basic_sample/mytype"
 )
 
 func main() {
 	// 1. hello
-	basic.HelloMain()
+	//basic.HelloMain()
 
-	// 2. const
-	basic.ConstMain()
+	//// 2. const
+	//basic.ConstMain()
 
-	// 3.variable
-	basic.VariableMain()
+	//// 3.variable
+	//basic.VariableMain()
 
-	// 4.execute_order
-	basic.ExecuteOrderMain()
-	basic.ExecuteOrderMain2()
+	//// 4.execute_order
+	//basic.ExecuteOrderMain()
+	//basic.ExecuteOrderMain2()
 
-	// 5.main package func
-	printMain()
+	//// 5.main package func
+	//printMain()
+
+	/////////////////////////////////////////
+	// time
+	mytime.BasicTimeOps()
+
+	////////////////////////////////////////////
+	// array
+	mytype.BasicArrayOps()
+	// slice
+	mytype.BasicSliceOps()
+	// map
+	mytype.BasicMapOps()
+	// method
+	mytype.BasicMethodOps()
 
 }
