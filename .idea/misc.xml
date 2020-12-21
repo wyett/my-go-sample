@@ -3,6 +3,7 @@
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
   </component>
+<<<<<<< HEAD
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -16,4 +17,6 @@
   <component name="SvnConfiguration">
     <configuration>C:\Users\chelei\AppData\Roaming\Subversion</configuration>
   </component>
+=======
+>>>>>>> 2c7eaec41370831d2a73d0ccbf9269cf53bfea52
 </project>

@@ -7,8 +7,10 @@ package main
  */
 
 import (
+	"basic_sample/exception"
 	"basic_sample/mytime"
 	"basic_sample/mytype"
+	"fmt"
 )
 
 func main() {
@@ -41,5 +43,10 @@ func main() {
 	mytype.BasicMapOps()
 	// method
 	mytype.BasicMethodOps()
+
+	fmt.Printf("======================================\n")
+	//////////////////////////////////////////
+	// recover()
+	exception.BasicRecoverOps()
 
 }
