@@ -8,6 +8,7 @@ package main
 
 import (
 	"basic_sample/exception"
+	"basic_sample/myio"
 	"basic_sample/mytime"
 	"basic_sample/mytype"
 	"fmt"
@@ -48,5 +49,11 @@ func main() {
 	//////////////////////////////////////////
 	// recover()
 	exception.BasicRecoverOps()
+
+	//////////////////////////////////////
+	// file
+	fmt.Printf("======================================\n")
+	myio.BasicStatOps()
+	myio.BasicDirOps()
 
 }
