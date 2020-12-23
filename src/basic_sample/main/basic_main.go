@@ -7,6 +7,7 @@ package main
  */
 
 import (
+	"basic_sample/concurrency"
 	"basic_sample/exception"
 	"basic_sample/myio"
 	"basic_sample/mytime"
@@ -55,5 +56,9 @@ func main() {
 	fmt.Printf("======================================\n")
 	myio.BasicStatOps()
 	myio.BasicDirOps()
+
+	//////////////////////////////////////
+	concurrency.ConcurrencyMain()
+	concurrency.ChanMain()
 
 }
