@@ -7,12 +7,8 @@ package main
  */
 
 import (
-	"basic_sample/concurrency"
-	"basic_sample/exception"
-	"basic_sample/myio"
-	"basic_sample/mytime"
-	"basic_sample/mytype"
-	"fmt"
+	"basic_sample/mycontroll"
+	"basic_sample/myfunc"
 )
 
 func main() {
@@ -34,31 +30,38 @@ func main() {
 
 	/////////////////////////////////////////
 	// time
-	mytime.BasicTimeOps()
+	//mytime.BasicTimeOps()
 
 	////////////////////////////////////////////
 	// array
-	mytype.BasicArrayOps()
+	//mytype.BasicArrayOps()
 	// slice
-	mytype.BasicSliceOps()
+	//mytype.BasicSliceOps()
 	// map
-	mytype.BasicMapOps()
+	//mytype.BasicMapOps()
 	// method
-	mytype.BasicMethodOps()
+	//mytype.BasicMethodOps()
 
-	fmt.Printf("======================================\n")
+	//////////////////////////////////////////
+	mycontroll.BasicControllOps()
+
+	//fmt.Printf("======================================\n")
 	//////////////////////////////////////////
 	// recover()
-	exception.BasicRecoverOps()
+	//exception.BasicRecoverOps()
 
 	//////////////////////////////////////
 	// file
-	fmt.Printf("======================================\n")
-	myio.BasicStatOps()
-	myio.BasicDirOps()
+	//fmt.Printf("======================================\n")
+	//myio.BasicStatOps()
+	//myio.BasicDirOps()
 
 	//////////////////////////////////////
-	concurrency.ConcurrencyMain()
-	concurrency.ChanMain()
+	//concurrency.ConcurrencyMain()
+	//concurrency.ChanMain()
+	//concurrency.WorkerPoolMain()
+
+	//////////////////////////////////////
+	myfunc.SuperFuncMain()
 
 }

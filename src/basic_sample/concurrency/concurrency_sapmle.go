@@ -1,6 +1,7 @@
 package concurrency
 
 import (
+	"fmt"
 	"math/rand"
 	"runtime"
 	"sync"
@@ -104,5 +105,27 @@ func ConcurrencyMain() {
 	//basicRuntimeInfoOps()
 	//goschedOps()
 	//goexitMain()
-	syncMain()
+	//syncMain()
+	mutexMain()
+}
+
+// mutex address or copy
+var x = 0
+
+func incr(wg *sync.WaitGroup, m *sync.Mutex) {
+	m.Lock()
+	x = x + 1
+	m.Unlock()
+	wg.Done()
+}
+
+func mutexMain() {
+	var wg sync.WaitGroup
+	var m sync.Mutex
+	for i := 1; i <= 1000; i++ {
+		wg.Add(1)
+		go incr(&wg, &m)
+	}
+	wg.Wait()
+	fmt.Println("mutex Main over ", x)
 }
