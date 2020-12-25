@@ -6,10 +6,7 @@ package main
  * @description: TODO
  */
 
-import (
-	"basic_sample/mycontroll"
-	"basic_sample/myfunc"
-)
+import "basic_sample/config_parser"
 
 func main() {
 	// 1. hello
@@ -43,7 +40,7 @@ func main() {
 	//mytype.BasicMethodOps()
 
 	//////////////////////////////////////////
-	mycontroll.BasicControllOps()
+	//mycontroll.BasicControllOps()
 
 	//fmt.Printf("======================================\n")
 	//////////////////////////////////////////
@@ -62,6 +59,12 @@ func main() {
 	//concurrency.WorkerPoolMain()
 
 	//////////////////////////////////////
-	myfunc.SuperFuncMain()
+	//myfunc.SuperFuncMain()
+
+	//////////////////////////////////map
+	var st config_parser.FirstChild
+	config_parser.YmlConfigParser(&st)
+
+	config_parser.MapParser()
 
 }
