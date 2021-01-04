@@ -8,3 +8,6 @@ package common
 
 type MySQLConnection struct {
 }
+
+type Partition struct {
+}
