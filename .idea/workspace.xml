@@ -2,14 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="447a4baf-97dd-409b-be99-497ba80c7e9a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/my-go-sample.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conf/kafka.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conf/mongo.conf" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/cloud.google.com/go/@v/list" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/cloud.google.com/go/@v/list.lock" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/cloud.google.com/go/@v/v0.26.0.mod" afterDir="false" />
@@ -1048,8 +1040,16 @@
       <change afterPath="$PROJECT_DIR$/pkg/mod/gopkg.in/yaml.v2@v2.4.0/yamlh.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/pkg/mod/gopkg.in/yaml.v2@v2.4.0/yamlprivateh.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/pkg/sumdb/sum.golang.org/latest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic_sample/config_parser/config_struct.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic_sample/config_parser/propParser.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/coolshell/first/cs_deep_compare.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/coolshell/first/cs_interface_1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/coolshell/first/cs_interface_2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/coolshell/first/cs_interface_3.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/coolshell/first/cs_interface_p.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/coolshell/first/cs_slice.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/coolshell/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/coolshell/main/coolshell.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -1067,9 +1067,6 @@
   <component name="GOROOT" path="D:\Go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GoLibraries">
-    <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="ProjectId" id="1lwoZbQvj7SrrLrbwnTuuXPUjZV" />
   <component name="PropertiesComponent">
@@ -1089,11 +1086,12 @@
     <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\mygit\my-go-sample\src\coolshell\first" />
+      <recent name="E:\mygit\my-go-sample\conf" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\mygit\my-go-sample\src\autopartition" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\mygit\my-go-sample\conf" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1108,7 +1106,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestReadConfig in auto-partition/config">
+  <component name="RunManager" selected="Go Build.go build coolshell/main">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -1207,12 +1205,29 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build basic_sample/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build coolshell/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="my-go-sample" />
-      <working_directory value="$PROJECT_DIR$/src/basic_sample" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/src/basic_sample/main/basic_main.go" />
-      <package value="basic_sample/main" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/coolshell/main/coolshell.go" />
+      <package value="coolshell/main" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build cs_slice.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="my-go-sample" />
+      <working_directory value="$PROJECT_DIR$/src/coolshell" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/coolshell/first/cs_slice.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build " type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
+      <module name="my-go-sample" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/|$PROJECT_DIR$/src/coolshell/main/coolshell.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -1228,17 +1243,20 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Go Build.go build " />
       <item itemvalue="Go Build.go build auto-partition/main" />
       <item itemvalue="Go Build.go build basic_main.go" />
-      <item itemvalue="Go Build.go build basic_sample/main" />
+      <item itemvalue="Go Build.go build coolshell/main" />
       <item itemvalue="Go Test.TestReadConfig in auto-partition/config" />
+      <item itemvalue="Go Build.go build cs_slice.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build coolshell/main" />
+        <item itemvalue="Go Build.go build cs_slice.go" />
         <item itemvalue="Go Test.TestReadConfig in auto-partition/config" />
         <item itemvalue="Go Build.go build auto-partition/main" />
         <item itemvalue="Go Build.go build basic_main.go" />
-        <item itemvalue="Go Build.go build basic_sample/main" />
       </list>
     </recent_temporary>
   </component>
@@ -1264,7 +1282,8 @@
     <MESSAGE value="super func" />
     <MESSAGE value="parser config" />
     <MESSAGE value="autopartition" />
-    <option name="LAST_COMMIT_MESSAGE" value="autopartition" />
+    <MESSAGE value="kafka" />
+    <option name="LAST_COMMIT_MESSAGE" value="kafka" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
