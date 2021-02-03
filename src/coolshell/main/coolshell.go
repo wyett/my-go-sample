@@ -1,6 +1,9 @@
 package main
 
-import "coolshell/first"
+import (
+	"coolshell/second"
+	"sync"
+)
 
 /**
  * @author     : wyettLei
@@ -8,14 +11,26 @@ import "coolshell/first"
  * @description: TODO
  */
 
-func main() {
-	first.SliceOne()
-	first.SliceTwo()
-	first.SliceThree()
-	first.Deep_Compare()
-	first.PersonPrint()
+var wg sync.WaitGroup
 
-	first.CsInterface1Main()
-	first.CsInterface2Main()
-	first.CsInterface3Main()
+func main() {
+	wg.Add(1)
+
+	//----------------slice--------------------//
+	//go first.SliceOne()
+	//go first.SliceTwo()
+	//go first.SliceThree()
+	//go first.Deep_Compare()
+	//go first.PersonPrint()
+
+	//----------------interface--------------------//
+	//go first.CsInterface1Main()
+	//go first.CsInterface2Main()
+	//go first.CsInterface3Main()
+	//go first.CsInterface4Main()
+
+	//----------------------err---------------------//
+	go second.CsErr1Main()
+
+	wg.Wait()
 }

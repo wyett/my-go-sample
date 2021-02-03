@@ -20,9 +20,9 @@ type city2 struct {
 	withName
 }
 
-//type printable interface {
-//    printstr()
-//}
+type printable2 interface {
+	printstr()
+}
 
 func (w withName) printStr() {
 	fmt.Println(w.name)

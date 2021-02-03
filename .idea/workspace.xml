@@ -1040,16 +1040,14 @@
       <change afterPath="$PROJECT_DIR$/pkg/mod/gopkg.in/yaml.v2@v2.4.0/yamlh.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/pkg/mod/gopkg.in/yaml.v2@v2.4.0/yamlprivateh.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/pkg/sumdb/sum.golang.org/latest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/coolshell/first/cs_deep_compare.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/coolshell/first/cs_interface_1.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/coolshell/first/cs_interface_2.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/coolshell/first/cs_interface_3.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/coolshell/first/cs_interface_p.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/coolshell/first/cs_slice.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/coolshell/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/coolshell/main/coolshell.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/coolshell/first/cs_interface_4.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/coolshell/second/cs_err_1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/coolshell/second/cs_err_2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/coolshell/second/cs_err_3.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/coolshell/first/cs_interface_2.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/coolshell/first/cs_interface_2.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/coolshell/first/cs_interface_3.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/coolshell/first/cs_interface_3.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/coolshell/main/coolshell.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/coolshell/main/coolshell.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -1283,7 +1281,8 @@
     <MESSAGE value="parser config" />
     <MESSAGE value="autopartition" />
     <MESSAGE value="kafka" />
-    <option name="LAST_COMMIT_MESSAGE" value="kafka" />
+    <MESSAGE value="coolshell mod" />
+    <option name="LAST_COMMIT_MESSAGE" value="coolshell mod" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -1306,6 +1305,16 @@
           <url>file://$PROJECT_DIR$/src/autopartition/main/main.go</url>
           <line>48</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/src/coolshell/main/coolshell.go</url>
+          <line>16</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/src/coolshell/second/cs_err_1.go</url>
+          <line>22</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -7,6 +7,7 @@ import "fmt"
  * @date       : Created in 2021/2/2 15:20
  * @description: 我们使用了一个叫Stringable 的接口，我们用这个接口把“业务类型”
  *               Country 和 City 和“控制逻辑” Print() 给解耦了。于是，只要实现了Stringable 接口，都可以传给 PrintStr() 来使用。
+ *               Program to an interface not an implementation
  */
 
 type country3 struct {
