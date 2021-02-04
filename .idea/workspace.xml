@@ -1040,14 +1040,8 @@
       <change afterPath="$PROJECT_DIR$/pkg/mod/gopkg.in/yaml.v2@v2.4.0/yamlh.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/pkg/mod/gopkg.in/yaml.v2@v2.4.0/yamlprivateh.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/pkg/sumdb/sum.golang.org/latest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/coolshell/first/cs_interface_4.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/coolshell/second/cs_err_1.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/coolshell/second/cs_err_2.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/coolshell/second/cs_err_3.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/coolshell/second/cs_err_4.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/coolshell/first/cs_interface_2.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/coolshell/first/cs_interface_2.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/coolshell/first/cs_interface_3.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/coolshell/first/cs_interface_3.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/coolshell/main/coolshell.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/coolshell/main/coolshell.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -1077,7 +1071,7 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/opensrouce/MongoShake-release-v2.4.17-20201218" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -1245,8 +1239,8 @@
       <item itemvalue="Go Build.go build auto-partition/main" />
       <item itemvalue="Go Build.go build basic_main.go" />
       <item itemvalue="Go Build.go build coolshell/main" />
-      <item itemvalue="Go Test.TestReadConfig in auto-partition/config" />
       <item itemvalue="Go Build.go build cs_slice.go" />
+      <item itemvalue="Go Test.TestReadConfig in auto-partition/config" />
     </list>
     <recent_temporary>
       <list>
@@ -1282,7 +1276,8 @@
     <MESSAGE value="autopartition" />
     <MESSAGE value="kafka" />
     <MESSAGE value="coolshell mod" />
-    <option name="LAST_COMMIT_MESSAGE" value="coolshell mod" />
+    <MESSAGE value="coolshell" />
+    <option name="LAST_COMMIT_MESSAGE" value="coolshell" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -1313,7 +1308,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/src/coolshell/second/cs_err_1.go</url>
-          <line>22</line>
+          <line>23</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
