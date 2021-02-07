@@ -1,8 +1,9 @@
 package main
 
 import (
-	"coolshell/second"
+	"coolshell/third"
 	"sync"
+	"time"
 )
 
 /**
@@ -11,10 +12,12 @@ import (
  * @description: TODO
  */
 
-var wg sync.WaitGroup
+//var WG sync.WaitGroup
+var x sync.Mutex
 
 func main() {
-	wg.Add(1)
+	//runtime.GOMAXPROCS(runtime.NumCPU())
+	//WG.Add(2)
 
 	//----------------slice--------------------//
 	//go first.SliceOne()
@@ -30,7 +33,13 @@ func main() {
 	//go first.CsInterface4Main()
 
 	//----------------------err---------------------//
-	go second.CsErr1Main()
+	//go second.CsErr1Main()
+	//go second.CsErr4Main()
 
-	wg.Wait()
+	//---------------------function option----------------------//
+	//go third.CsBuilder1Main()
+	go third.CsFuncOption2Main()
+
+	time.Sleep(20)
+	//WG.Wait()
 }
