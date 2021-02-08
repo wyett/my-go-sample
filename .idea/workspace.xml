@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="447a4baf-97dd-409b-be99-497ba80c7e9a" name="Default Changelist" comment="">
+    <list default="true" id="447a4baf-97dd-409b-be99-497ba80c7e9a" name="Default Changelist" comment="commonpkg sample">
       <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/cloud.google.com/go/@v/list" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/cloud.google.com/go/@v/list.lock" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/pkg/mod/cache/download/cloud.google.com/go/@v/v0.26.0.mod" afterDir="false" />
@@ -1040,7 +1040,11 @@
       <change afterPath="$PROJECT_DIR$/pkg/mod/gopkg.in/yaml.v2@v2.4.0/yamlh.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/pkg/mod/gopkg.in/yaml.v2@v2.4.0/yamlprivateh.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/pkg/sumdb/sum.golang.org/latest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/commonpkg/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/coolshell/fifth/cs_generic_map_1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/coolshell/fifth/cs_map_red_filter_1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/coolshell/fifth/cs_reduce_filter_2.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/coolshell/main/coolshell.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/coolshell/main/coolshell.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -1278,7 +1282,8 @@
     <MESSAGE value="coolshell" />
     <MESSAGE value="flenut interface" />
     <MESSAGE value="dc" />
-    <option name="LAST_COMMIT_MESSAGE" value="dc" />
+    <MESSAGE value="commonpkg sample" />
+    <option name="LAST_COMMIT_MESSAGE" value="commonpkg sample" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>

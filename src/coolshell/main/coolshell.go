@@ -1,7 +1,7 @@
 package main
 
 import (
-	"coolshell/third"
+	"coolshell/fifth"
 	"sync"
 	"time"
 )
@@ -38,8 +38,11 @@ func main() {
 
 	//---------------------function option----------------------//
 	//go third.CsBuilder1Main()
-	go third.CsFuncOption2Main()
+	//go third.CsFuncOption2Main()
 
-	time.Sleep(20)
+	//---------------------map&&reduce&&filter----------------------//
+	go fifth.CsMapRedFilter1Main()
+
+	time.Sleep(20 * time.Millisecond)
 	//WG.Wait()
 }
