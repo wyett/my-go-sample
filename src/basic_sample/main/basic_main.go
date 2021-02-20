@@ -1,12 +1,12 @@
 package main
 
+import "basic_sample/myweb"
+
 /**
  * @author     : wyettLei
  * @date       : Created in 2020/10/28 19:05
  * @description: TODO
  */
-
-import "basic_sample/config_parser"
 
 func main() {
 	// 1. hello
@@ -62,9 +62,17 @@ func main() {
 	//myfunc.SuperFuncMain()
 
 	//////////////////////////////////map
-	var st config_parser.FirstChild
-	config_parser.YmlConfigParser(&st)
+	//var st config_parser.FirstChild
+	//config_parser.YmlConfigParser(&st)
 
-	config_parser.MapParser()
+	//config_parser.MapParser()
+
+	//-------------reflect---------------------/
+	//myreflect.ReflectMain1()
+	//myreflect.ReflectMain2()
+	//myreflect.ReflectMain3()
+
+	//-------------web-----------------------------/
+	myweb.WebMain1()
 
 }
