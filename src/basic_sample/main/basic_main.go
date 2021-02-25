@@ -1,6 +1,6 @@
 package main
 
-import "basic_sample/myweb"
+import "basic_sample/mylog"
 
 /**
  * @author     : wyettLei
@@ -73,6 +73,9 @@ func main() {
 	//myreflect.ReflectMain3()
 
 	//-------------web-----------------------------/
-	myweb.WebMain1()
+	//myweb.WebMain1()
+
+	//---------------------------------------/
+	mylog.LogSample1Main()
 
 }

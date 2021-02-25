@@ -1,6 +1,7 @@
 package main
 
 import (
+	"commonpkg/mysql"
 	"commonpkg/utils"
 	"fmt"
 	"os"
@@ -25,9 +26,10 @@ func ConfigParser() {
 	defer file.Close()
 
 	// load configFile
-	configure := nimo
+	//configure := nimo
 
 }
 
 func main() {
+	mysql.MySQLQuery()
 }

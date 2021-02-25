@@ -14,6 +14,7 @@ type PartitionConfig struct {
 	Id string `config:"id"`
 
 	// 2. mysql
+	MySQLProto    string   `config:"mysql.proto"`
 	MySQLHost     []string `config:"mysql.host"`
 	MySQLUser     string   `config:"mysql.user"`
 	MySQLPassword string   `config:"mysql.password"`
