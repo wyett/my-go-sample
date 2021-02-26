@@ -4,4 +4,4 @@
 
 package wlog
 
-type
+//type
