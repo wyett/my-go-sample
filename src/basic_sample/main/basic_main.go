@@ -1,6 +1,6 @@
 package main
 
-import "basic_sample/mylog"
+import "basic_sample/mychannel"
 
 /**
  * @author     : wyettLei
@@ -76,6 +76,13 @@ func main() {
 	//myweb.WebMain1()
 
 	//---------------------------------------/
-	mylog.LogSample1Main()
+	//mylog.LogSample1Main()
 
+	//---------------------------------------/
+	//mycontext.MyContextSample1Main()
+	//mycontext.MyContextSample2Main()
+
+	//-------------------pipeline-------------------/
+	//mychannel.Pipeline1Main()
+	mychannel.PipeLine2Main()
 }
