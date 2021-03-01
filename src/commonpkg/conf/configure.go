@@ -33,4 +33,4 @@ type PartitionConfig struct {
 	logEncoding string `config:log.encoding`
 }
 
-var Option PartitionConfig
+var Options PartitionConfig

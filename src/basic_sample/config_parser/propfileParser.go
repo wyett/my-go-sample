@@ -1,10 +1,5 @@
 package config_parser
 
-import (
-	"fmt"
-	"os"
-)
-
 /**
  * @author     : wyettLei
  * @date       : Created in 2020/12/25 16:53
@@ -26,12 +21,12 @@ type PropertyConfig struct {
 	Fffff string `config:"module1.a"`
 }
 
-func LoadProperties(f string) {
-	// open file
-	data, err := os.Open(f)
-	if err != nil {
-		fmt.Println("file %v not exists", f)
-	}
-	fmt.Println(data)
-
-}
+//func LoadProperties(f string) {
+//	// open file
+//	data, err := os.Open(f)
+//	if err != nil {
+//		fmt.Println("file %v not exists", f)
+//	}
+//	fmt.Println(data)
+//
+//}
