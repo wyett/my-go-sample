@@ -15,13 +15,13 @@ import (
 )
 
 const (
-	DefaultFormat = "2005-01-02 15:04:05"
+	DefaultFormat    = "2005-01-02 15:04:05"
 	DefaultSeperator = "="
 )
 
 type ConfigFile struct {
-	config          *os.File
-	dateFormat      string
+	config     *os.File
+	dateFormat string
 }
 
 // new ConfigFile
@@ -56,7 +56,9 @@ func (cf *ConfigFile) Load(config interface{}) error {
 	for _, line := range configs {
 		linePair := strings.SplitN(line, "=", 2)
 		//fmt.Printf("left=%s,right=%s\n", linePair[0], linePair[1])
-		key, value := mapStringArr(linePair, strings.Trim(, " "))
+		//key, value := mapStringArr(linePair, strings.Trim(, " "))
+		key := strings.Trim(linePair[0], " ")
+		value := strings.Trim(linePair[0], " ")
 
 		var fieldName string
 		var err error
@@ -81,13 +83,13 @@ func (cf *ConfigFile) Load(config interface{}) error {
 			} else {
 				field.SetBool(v)
 			}
-		case reflect.Int, reflect.Int8,reflect.Int16, reflect.Int32, reflect.Int64:
+		case reflect.Int, reflect.Int8, reflect.Int16, reflect.Int32, reflect.Int64:
 			if v, err := strconv.ParseInt(value, 10, 64); err != nil {
 				field.SetInt(v)
 			} else {
 				return fmt.Errorf("int key %s has wrong value %s", key, value)
 			}
-		case reflect.Uint, reflect.Uint8,reflect.Uint16, reflect.Uint32, reflect.Uint64:
+		case reflect.Uint, reflect.Uint8, reflect.Uint16, reflect.Uint32, reflect.Uint64:
 			if v, err := strconv.ParseUint(value, 10, 64); err != nil {
 				return fmt.Errorf("Uint key %s has wrong value %s", key, value)
 			} else {
@@ -114,10 +116,10 @@ func readConfigFile(file bufio.Reader) (res []string) {
 }
 
 // get filedName of struct by key name
-func getFieldByTag(cs interface{}, tag string) (fieldName string, err error){
+func getFieldByTag(cs interface{}, tag string) (fieldName string, err error) {
 	fieldCounts := reflect.ValueOf(cs).Elem().NumField()
 	types := reflect.TypeOf(cs)
-	for i := 0; i <fieldCounts; i++ {
+	for i := 0; i < fieldCounts; i++ {
 		if types.Elem().Field(i).Tag.Get("config") == tag {
 			return types.Elem().Field(i).Name, nil
 		}
