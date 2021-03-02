@@ -58,13 +58,14 @@ func (cf *ConfigFile) Load(config interface{}) error {
 		//fmt.Printf("left=%s,right=%s\n", linePair[0], linePair[1])
 		//key, value := mapStringArr(linePair, strings.Trim(, " "))
 		key := strings.Trim(linePair[0], " ")
-		value := strings.Trim(linePair[0], " ")
+		value := strings.Trim(linePair[1], " ")
 
 		var fieldName string
 		var err error
 		// 根据key获取struct的fieldName
 		if fieldName, err = getFieldByTag(config, key); err != nil {
-			return errors.New("no fitted field of struct")
+			//return errors.New("no fitted field of struct", key)
+			return fmt.Errorf("no fitted field of %v", key)
 		}
 
 		// get field by name

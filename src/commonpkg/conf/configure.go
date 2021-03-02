@@ -24,13 +24,13 @@ type PartitionConfig struct {
 	PartitionPreserveRule []string `config:"partition.preserve.rule"`
 
 	// 4. log
-	level       string `config:log.level`
-	store       string `config:log.store`
-	logName     string `config:log.file_name`
-	logMaxSize  uint32 `config:log.max_size`
-	logMaxAge   uint16 `config:log.max_age`
-	logCompress bool   `config:log.compress`
-	logEncoding string `config:log.encoding`
+	LogLevel    string `config:"log.level"`
+	LogStore    string `config:"log.store"`
+	LogName     string `config:"log.file_name"`
+	LogMaxSize  uint32 `config:"log.max_size"`
+	LogMaxAge   uint16 `config:"log.max_age"`
+	LogCompress bool   `config:"log.compress"`
+	LogEncoding string `config:"log.encoding""`
 }
 
 var Options PartitionConfig

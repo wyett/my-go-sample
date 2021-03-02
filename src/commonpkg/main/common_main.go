@@ -1,6 +1,8 @@
 package main
 
-import "commonpkg/flagsample"
+import (
+	"commonpkg/conf"
+)
 
 /**
  * @author     : wyettLei
@@ -10,7 +12,7 @@ import "commonpkg/flagsample"
 
 func main() {
 	//--------------------------config----------------------/
-	flagsample.ParseAPConfig("E://mygit//my-go-sample//conf//autopartition.conf")
+	config.ParseAPConfig("E://mygit//my-go-sample//conf//autopartition.conf")
 
 	//mysql.MySQLQuery()
 
