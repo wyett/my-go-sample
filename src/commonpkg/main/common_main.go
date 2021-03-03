@@ -12,7 +12,7 @@ import (
 
 func main() {
 	//--------------------------config----------------------/
-	config.ParseAPConfig("E://mygit//my-go-sample//conf//autopartition.conf")
+	conf.ParseConfigAndPrint("E://mygit//my-go-sample//conf//autopartition.conf", conf.Options)
 
 	//mysql.MySQLQuery()
 

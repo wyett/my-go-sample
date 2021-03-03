@@ -1,4 +1,4 @@
-package config
+package conf
 
 /**
  * @author     : wyettLei
@@ -30,7 +30,7 @@ type PartitionConfig struct {
 	LogMaxSize  uint32 `config:"log.max_size"`
 	LogMaxAge   uint16 `config:"log.max_age"`
 	LogCompress bool   `config:"log.compress"`
-	LogEncoding string `config:"log.encoding""`
+	LogEncoding string `config:"log.encoding"`
 }
 
 var Options PartitionConfig

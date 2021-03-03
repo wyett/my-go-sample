@@ -2,7 +2,7 @@
 // @date       : Created in 2021/3/1 11:27
 // @description: TODO
 
-package config
+package conf
 
 import (
 	"bufio"
