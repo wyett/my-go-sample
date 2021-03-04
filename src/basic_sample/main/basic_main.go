@@ -1,6 +1,6 @@
 package main
 
-import "basic_sample/mychannel"
+import "basic_sample/mysync"
 
 /**
  * @author     : wyettLei
@@ -84,5 +84,9 @@ func main() {
 
 	//-------------------pipeline-------------------/
 	//mychannel.Pipeline1Main()
-	mychannel.PipeLine2Main()
+	//mychannel.PipeLine2Main()
+
+	//-------------------sync-------------------/
+	mysync.MAAMain()
+
 }

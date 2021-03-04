@@ -11,7 +11,7 @@ import (
 	"reflect"
 )
 
-func ParseConfigAndPrint(f string, s struct{}) {
+func ParseConfigAndPrint(f string, s reflect.Type) {
 	var err error
 	var file *os.File
 
