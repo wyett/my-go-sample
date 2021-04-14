@@ -1,8 +1,6 @@
 package main
 
-import (
-	"commonpkg/conf"
-)
+import "commonpkg/mongosample"
 
 /**
  * @author     : wyettLei
@@ -12,8 +10,17 @@ import (
 
 func main() {
 	//--------------------------config----------------------/
-	conf.ParseConfigAndPrint("E://mygit//my-go-sample//conf//autopartition.conf", conf.Options)
+	//conf.ParseConfigAndPrint("E://mygit//my-go-sample//conf//autopartition.conf", conf.Options)
 
 	//mysql.MySQLQuery()
+
+	//----------------------------mongo-------------------/
+	mongosample.MongoMain()
+
+	//-------------------------net/http--------------------/
+	//httpsample.HttpHello()
+	//httpsample.HttpHello2()
+	//httpsample.HttpHello3()
+	//httpsample.HttpHello4()
 
 }
