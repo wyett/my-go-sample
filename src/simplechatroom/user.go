@@ -25,7 +25,7 @@ type UserOperation interface {
 }
 
 type RegistryOperation interface {
-    getNewUserId()
+	getNewUserId()
 	register()
 }
 
@@ -55,7 +55,7 @@ func (uli *UserLoginInfo) Login(username string, password string) (bool, CommonR
 //------------------------UserRegistryInfo---------------------/
 func NewUserRegistryInfo(username string, password string) *UserRegistryInfo {
 	return &UserRegistryInfo{
-		userId: UserRegistryInfo.getNewUserId(),
+		userId:        UserRegistryInfo.getNewUserId(),
 		UserLoginInfo: UserLoginInfo{username, password},
 	}
 }
@@ -69,15 +69,6 @@ func (uri *UserRegistryInfo) SetUserLoginInfo(uli UserLoginInfo) {
 }
 
 func (uri *UserRegistryInfo) getNewUserId() int32 {
-	return new int32()
+	//return new int32()
+	return 0
 }
-
-
-
-
-
-
-
-
-
-
