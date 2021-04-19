@@ -1,6 +1,6 @@
 package main
 
-import "basic_sample/mysync"
+import "basic_sample/basic"
 
 /**
  * @author     : wyettLei
@@ -11,6 +11,7 @@ import "basic_sample/mysync"
 func main() {
 	// 1. hello
 	//basic.HelloMain()
+	basic.ForTrueSample()
 
 	//// 2. const
 	//basic.ConstMain()
@@ -87,6 +88,9 @@ func main() {
 	//mychannel.PipeLine2Main()
 
 	//-------------------sync-------------------/
-	mysync.MAAMain()
+	//mysync.MAAMain()
+
+	//-------------------func-------------------/
+	//myfunc.FuncSample2()
 
 }

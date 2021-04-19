@@ -52,6 +52,7 @@ func HttpHello3() {
 
 type HelloHandler struct{}
 
+//必须实现ServeHTTP方法
 func (hs HelloHandler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 	fmt.Println(hs, "hellostruct")
 }

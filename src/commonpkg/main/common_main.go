@@ -1,6 +1,6 @@
 package main
 
-import "commonpkg/mongosample"
+import "commonpkg/mysocket"
 
 /**
  * @author     : wyettLei
@@ -15,7 +15,7 @@ func main() {
 	//mysql.MySQLQuery()
 
 	//----------------------------mongo-------------------/
-	mongosample.MongoMain()
+	//mongosample.MongoMain()
 
 	//-------------------------net/http--------------------/
 	//httpsample.HttpHello()
@@ -23,4 +23,7 @@ func main() {
 	//httpsample.HttpHello3()
 	//httpsample.HttpHello4()
 
+	//-------------------------net/socket--------------------/
+	//mysocket.SockServerMain()
+	mysocket.SockClientMain()
 }

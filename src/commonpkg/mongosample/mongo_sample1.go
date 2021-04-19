@@ -6,7 +6,7 @@ package mongosample
 
 import (
 	"fmt"
-	"gopkg.in/mgo.v2"
+	"github.com/wyett/mgo"
 )
 
 type Person struct {
@@ -31,8 +31,8 @@ func MongoMain() {
 	defer session.Close()
 	//session.SetMode(mgo.Monotonic, true)
 
-	db := session.DB("wyett")    //数据库名称
-	collection := db.C("person") //如果该集合已经存在的话，则直接返回
+	db := session.DB("wyett")
+	collection := db.C("person")
 
 	//*****集合中元素数目********
 	countNum, err := collection.Count()
