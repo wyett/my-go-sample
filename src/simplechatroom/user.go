@@ -17,12 +17,15 @@ type UserLoginInfo struct {
 
 type UserRegistryInfo struct {
 	userId int32
-	//userLoginInfo UserLoginInfo
 	UserLoginInfo
 }
 
 type UserOperation interface {
 	login()
+}
+
+type RegistryOperation interface {
+    getNewUserId()
 	register()
 }
 
@@ -52,8 +55,29 @@ func (uli *UserLoginInfo) Login(username string, password string) (bool, CommonR
 //------------------------UserRegistryInfo---------------------/
 func NewUserRegistryInfo(username string, password string) *UserRegistryInfo {
 	return &UserRegistryInfo{
-		userId: getUserId(),
-		//{username:username, password:password},
-		UserLoginInfo: {username, password},
+		userId: UserRegistryInfo.getNewUserId(),
+		UserLoginInfo: UserLoginInfo{username, password},
 	}
 }
+
+func (uri *UserRegistryInfo) SetUserId(userId int32) {
+	uri.userId = userId
+}
+
+func (uri *UserRegistryInfo) SetUserLoginInfo(uli UserLoginInfo) {
+	uri.UserLoginInfo = uli
+}
+
+func (uri *UserRegistryInfo) getNewUserId() int32 {
+	return new int32()
+}
+
+
+
+
+
+
+
+
+
+
