@@ -1,6 +1,6 @@
 package main
 
-import "commonpkg/mysocket"
+import "commonpkg/httpsample"
 
 /**
  * @author     : wyettLei
@@ -22,8 +22,11 @@ func main() {
 	//httpsample.HttpHello2()
 	//httpsample.HttpHello3()
 	//httpsample.HttpHello4()
+	//httpsample.HttpTimeoutMain()
+	//httpsample.HttpSlowMain()
+	httpsample.HttpSlowContextMain()
 
 	//-------------------------net/socket--------------------/
 	//mysocket.SockServerMain()
-	mysocket.SockClientMain()
+	//mysocket.SockClientMain()
 }

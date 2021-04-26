@@ -5,7 +5,7 @@
 package simplechatroom
 
 type UserInfo struct {
-	userId   int32
+	userId   UUID
 	ipAddr   string
 	username string
 }
@@ -16,17 +16,16 @@ type UserLoginInfo struct {
 }
 
 type UserRegistryInfo struct {
-	userId int32
+	userId UUID
 	UserLoginInfo
 }
 
 type UserOperation interface {
-	login()
+	Login()
 }
 
 type RegistryOperation interface {
-	getNewUserId()
-	register()
+	Register()
 }
 
 //------------------------UserLoginInfo---------------------/
@@ -48,19 +47,19 @@ func (uli *UserLoginInfo) SetPassword(password string) {
 
 func (uli *UserLoginInfo) Login(username string, password string) (bool, CommonResult) {
 	cr := CommonResult{}
-	// 1.
+	// todo
 	return false, cr
 }
 
 //------------------------UserRegistryInfo---------------------/
 func NewUserRegistryInfo(username string, password string) *UserRegistryInfo {
 	return &UserRegistryInfo{
-		userId:        UserRegistryInfo.getNewUserId(),
+		userId:        UUID{},
 		UserLoginInfo: UserLoginInfo{username, password},
 	}
 }
 
-func (uri *UserRegistryInfo) SetUserId(userId int32) {
+func (uri *UserRegistryInfo) SetUserId(userId UUID) {
 	uri.userId = userId
 }
 
@@ -68,7 +67,8 @@ func (uri *UserRegistryInfo) SetUserLoginInfo(uli UserLoginInfo) {
 	uri.UserLoginInfo = uli
 }
 
-func (uri *UserRegistryInfo) getNewUserId() int32 {
-	//return new int32()
-	return 0
+func (uri *UserRegistryInfo) Register(info UserRegistryInfo) (bool, CommonResult) {
+	cr := CommonResult{}
+	// todo
+	return true, cr
 }

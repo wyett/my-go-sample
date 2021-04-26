@@ -3,3 +3,6 @@
 // @description: TODO
 
 package simplechatroom
+
+type ClientOperation interface {
+}
