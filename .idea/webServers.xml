@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="8c000b21-0efa-4e6d-8516-819dc5b938ea" name="wyett_go_dev" url="http://10.16.17.103">
+        <fileTransfer host="10.16.17.103" port="22" privateKey="C:\Users\chelei\.ssh\id_rsa" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions controlEncoding="UTF8" dataProtectionLevel="Private" keepAliveTimeout="10000" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
