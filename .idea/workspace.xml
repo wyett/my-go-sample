@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="447a4baf-97dd-409b-be99-497ba80c7e9a" name="Default Changelist" comment="commonpkg sample">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/my-go-sample.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cobrademo/cmd/root.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cobrademo/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http/http02_response.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http/http03_newRequest.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http/http04_defaultClient.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http/http05_clientGet.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http/http06_httpGet.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http/http_client.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgo/utils/mgo_client.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongo_conn/.vscode/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongo_conn/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongo_conn/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongo_conn/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongo_conn/utils/define.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongo_conn/utils/mgo_client.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongobench" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongobench/docs/dev/Logger.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongobench/pkg/db/mongo_conn.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongobench/pkg/db/mysql_conn.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongobench/pkg/wlog/formatter_json.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongobench/docs/dev/TodoList.md" beforeDir="false" afterPath="$PROJECT_DIR$/mongobench/docs/dev/TodoList.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongobench/pkg/logger.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongobench/pkg/mongo_conn.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongobench/pkg/mysql_conn.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongobench/pkg/wlog/entry.go" beforeDir="false" afterPath="$PROJECT_DIR$/mongobench/pkg/wlog/entry.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="D:\Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="E:\mygit\my-go-sample\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1oeLTGLWsducRHYhsjpM5ZfIFds" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="GO_FMT" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\mygit\my-go-sample\src\mychatroom\common" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\mygit\my-go-sample\src\mychatroom\server\main" />
+      <recent name="E:\mygit\my-go-sample\src\mychatroom\server\service" />
+      <recent name="E:\mygit\my-go-sample\src\commonpkg\conf" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build github.com/wyett/my-go-sample/http (4)">
+    <configuration name="go build github.com/wyett/my-go-sample/http (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="my-go-sample" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="github.com/wyett/my-go-sample/http" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/http/http03_newRequest.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build github.com/wyett/my-go-sample/http (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="my-go-sample" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="github.com/wyett/my-go-sample/http" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/http/http04_defaultClient.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build github.com/wyett/my-go-sample/http (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="my-go-sample" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="github.com/wyett/my-go-sample/http" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/http/http05_clientGet.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build github.com/wyett/my-go-sample/http (4)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="my-go-sample" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="github.com/wyett/my-go-sample/http" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/http/http06_httpGet.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build github.com/wyett/my-go-sample/http" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="my-go-sample" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="github.com/wyett/my-go-sample/http" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/http/http02_response.go" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Go Build.go build github.com/wyett/my-go-sample/http" />
+      <item itemvalue="Go Build.go build github.com/wyett/my-go-sample/http (1)" />
+      <item itemvalue="Go Build.go build github.com/wyett/my-go-sample/http (2)" />
+      <item itemvalue="Go Build.go build github.com/wyett/my-go-sample/http (3)" />
+      <item itemvalue="Go Build.go build github.com/wyett/my-go-sample/http (4)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build github.com/wyett/my-go-sample/http (4)" />
+        <item itemvalue="Go Build.go build github.com/wyett/my-go-sample/http (3)" />
+        <item itemvalue="Go Build.go build github.com/wyett/my-go-sample/http (2)" />
+        <item itemvalue="Go Build.go build github.com/wyett/my-go-sample/http (1)" />
+        <item itemvalue="Go Build.go build github.com/wyett/my-go-sample/http" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="reflect" />
+    <MESSAGE value="test log" />
+    <MESSAGE value="log module" />
+    <MESSAGE value="config parser" />
+    <MESSAGE value="load config" />
+    <MESSAGE value="config and parser" />
+    <MESSAGE value="sync" />
+    <MESSAGE value="mongo sample" />
+    <MESSAGE value="simple chat room" />
+    <MESSAGE value="commonpkg sample" />
+    <MESSAGE value="feat:alert webhook" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:alert webhook" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+    <environment>
+      <map>
+        <entry key="GOPROXY" value="https://goproxy.cn,https://goproxy.io,direct" />
+      </map>
+    </environment>
+    <proxy>https://goproxy.cn,https://goproxy.io,direct</proxy>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/src/commonpkg/conf/config.go</url>
+          <line>120</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/src/commonpkg/conf/config.go</url>
+          <line>38</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/src/commonpkg/httpsample/httphello.go</url>
+          <line>61</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/src/commonpkg/mongosample/mongo_sample1.go</url>
+          <line>26</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/../../../go/pkg/mod/gopkg.in/mgo.v2@v2.0.0-20190816093944-a6b53ec6cb22/session.go</url>
+          <line>243</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/src/commonpkg/httpsample/httptimeout.go</url>
+          <line>67</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/src/alert_webhook/main/alert.go</url>
+          <line>28</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/src/alert_webhook/main/webhook.go</url>
+          <line>30</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
